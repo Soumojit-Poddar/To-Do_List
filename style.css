@@ -75,6 +75,10 @@ button{
     border: none;
     cursor: pointer;
 }
+button:hover{
+    color: #eb6424;
+    background-color: #fdf5bf;
+}
 input::placeholder{
     color: #eb6324c9;
 }
@@ -88,6 +92,10 @@ ul li{
     cursor: pointer;
     position: relative;
     margin-block: 10px;
+    border-radius: 37px;
+}
+ul li:hover{
+    background-color: #f58d5ccd;
 }
 ul li::before{
     content: '';
