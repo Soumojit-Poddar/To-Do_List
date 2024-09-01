@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List - the Code School</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h2 onclick="welcome()"><i class="fa-brands fa-slack" id="logo"></i> To-Do List <i class="fa-solid fa-list-check"></i></h2>
+
+        <div class="row">
+            <input type="text" id="input-box" placeholder="Enter your task here...">
+            <button onclick="addTask()">Add Task</button>
+        </div>
+
+        <ul id="list-container"></ul>
+    </div>
+    <div class="credit">
+        Created with <i class="fa-solid fa-heart"></i> by Soumojit Poddar
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/a6e1b2023d.js" crossorigin="anonymous"></script>
+</body>
+</html>
