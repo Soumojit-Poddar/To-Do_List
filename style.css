@@ -149,6 +149,26 @@ ul li span:hover{
 .credit i{
     color: red;
 }
+ul li .edit {
+    position: absolute;
+    top: 10px;
+    right: 40px; /* Position edit icon beside the delete icon */
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    color: #eb6424;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+ul li .edit:hover {
+    background-color: white;
+    color: #eb6424;
+}
+
 
 @media (max-width : 900px){
     .main h2{
